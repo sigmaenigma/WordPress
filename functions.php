@@ -1,3 +1,5 @@
+// Add this to your function.php file to manually edit the logo and logo url
+
 // WP Admin Logo and URL
 function custom_loginlogo() {
 	echo '<style type="text/css">
