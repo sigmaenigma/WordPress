@@ -28,7 +28,6 @@
 #`---._.-------------------------------------------------------------._.---'
 #                              -Roland Hangg-
 
-
 User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
@@ -37,31 +36,33 @@ Allow: /*.js$
 Allow: /*.css$
 
 User-agent: Googlebot
-Disallow: /private/
-Disallow: /restricted/
+Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 Allow: /*.js$
 Allow: /*.css$
 
 User-agent: Bingbot
-Disallow: /private/
-Disallow: /restricted/
+Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 Allow: /*.js$
 Allow: /*.css$
 
 User-agent: DuckDuckBot
-Disallow: /private/
-Disallow: /restricted/
+Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 Allow: /*.js$
 Allow: /*.css$
 
 User-agent: Amazonbot
-Disallow: /private/
-Disallow: /restricted/
+Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 Allow: /*.js$
 Allow: /*.css$
 
-Sitemap: https://<sitename.example>/sitemap.xml
+User-agent: PetalBot
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Allow: /*.js$
+Allow: /*.css$
+
+Sitemap: https://<sitename>/sitemap.xml
