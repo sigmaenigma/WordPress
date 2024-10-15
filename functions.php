@@ -1,3 +1,4 @@
+<?php
 // Add this to your function.php file to manually edit the logo and logo url
 
 // WP Admin Logo and URL
@@ -11,3 +12,4 @@ add_filter( 'login_headerurl', 'my_custom_login_url' );
 function my_custom_login_url($url) {
     return 'http://example.com';
 }
+?>
